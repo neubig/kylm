@@ -1,0 +1,39 @@
+Possible Future Features:
+Pitman-Yor LMs
+Latent Dirichlet Allocation
+Linear regression for Good-Turing discounts
+Linear interpolation for various models
+Estimation of class-based models
+
+Ver. 0.0.6 (5/21/2010)
+
+Fixed a bug caused when manually setting a vocabulary with words that don't occur in the training corpus.
+
+Ver. 0.0.5 (11/25/2009)
+
+Fixed a bug in specifying the start and terminal symbols (thanks to Toru Taniguchi for pointing it out.)
+
+Ver. 0.0.4 (11/13/2009)
+
+Support for class-based LMs added
+Smoothing for unigrams
+Added the ability to output separate beginning and terminal symbols
+Added support for Modified Kneser-Ney smoothing (of Chen and Goodman)
+Fixed a bug in the unknown model code that affected models with unknown characters
+
+Ver. 0.0.3 (6/22/2009)
+
+Fixed the creation of empty strings when multiple white spaces exist
+A variety of speed and memory improvements (removal of linked lists, indexing of the root node)
+Added support for character-based modeling of unknown words
+Fixed trimming so it works with Good-Turing smoothed models
+Fixed a problem when piping data in to CountNgrams
+Fixed a problem with WFST output that was killing beginning-of-sentence context
+
+Ver. 0.0.2 (5/28/2009)
+
+New Features:
+It is now possible to trim n-grams by count
+A set vocabulary list can be used to limit the vocabulary
+Output in AT&T WFST format is possible
+Documentation has been improved
