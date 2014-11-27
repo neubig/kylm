@@ -51,7 +51,7 @@ public class GTSmoother extends NgramSmoother {
 	public GTSmoother() { }
 
 	@Override
-	public void smooth(NgramLM lm) {
+	public void smooth(NgramLM lm) throws Exception {
 
 		// mark the values to be removed
 		markTrimmed(lm);

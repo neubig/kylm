@@ -36,7 +36,7 @@ public class KNSmoother extends AbsoluteSmoother {
 	private static final long serialVersionUID = -17904685317993557L;
 
 	@Override
-	public void smooth(NgramLM lm) {
+	public void smooth(NgramLM lm) throws Exception {
 		
 		if(debug > 0)
 			System.err.println("KNSmoother: marking values to be trimmed");

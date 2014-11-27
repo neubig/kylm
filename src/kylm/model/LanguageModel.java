@@ -188,7 +188,7 @@ public abstract class LanguageModel implements Serializable {
 	// training functions //
 	////////////////////////
 
-	public abstract void trainModel(Iterable<String[]> sl) throws IOException;
+	public abstract void trainModel(Iterable<String[]> sl) throws Exception;
 
 	////////////////////////
 	// reporting function //

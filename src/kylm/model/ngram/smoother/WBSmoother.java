@@ -45,7 +45,7 @@ public class WBSmoother extends NgramSmoother {
 	public WBSmoother() { }
 
 	@Override
-	public void smooth(NgramLM lm) {
+	public void smooth(NgramLM lm) throws Exception {
 
 		this.lm = lm;
 		// mark the values to be trimmed

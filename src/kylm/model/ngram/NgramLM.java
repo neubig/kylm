@@ -253,7 +253,7 @@ public class NgramLM extends LanguageModel implements Serializable {
 	}
 
 	@Override
-	public void trainModel(Iterable<String[]> sl) throws IOException {
+	public void trainModel(Iterable<String[]> sl) throws Exception {
 		if(debug > 0)
 			System.err.println("NgramLM.trainModel(): Started for "+name);
 		// count the n-grams

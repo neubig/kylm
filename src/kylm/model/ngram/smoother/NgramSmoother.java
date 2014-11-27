@@ -53,7 +53,7 @@ public abstract class NgramSmoother implements Serializable {
 	 * the appropriate smoothing algorithm.
 	 * @param lm The N-gram language model to smooth.
 	 */
-	public abstract void smooth(NgramLM lm);
+	public abstract void smooth(NgramLM lm) throws Exception;
 	
 	/**
 	 * calculate the frequencies of frequencies

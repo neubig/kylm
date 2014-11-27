@@ -37,7 +37,7 @@ public class MLSmoother extends NgramSmoother {
 	private static final long serialVersionUID = -4731041681002702062L;
 
 	@Override
-	public void smooth(NgramLM lm) {
+	public void smooth(NgramLM lm) throws Exception {
 		markTrimmed(lm);
 		smoothRec(lm, lm.getRoot(), 0);
 	}
